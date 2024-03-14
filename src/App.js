@@ -1,6 +1,7 @@
 import Register from './Components/register';
 import Counter from './Components/counter';
 import Createlist from './Components/create-list';
+import TodoList from './Components/create-list';
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <div>
       {/* <Register />
       <Counter /> */}
-      <Createlist />
+      {/* <Createlist /> */}
+      <TodoList />
     </div>
   );
 }
